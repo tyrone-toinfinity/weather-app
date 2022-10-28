@@ -26,7 +26,7 @@ export default function Forecast({ data }) {
 
   return (
     <>
-      <label className="title">Daily</label>
+      <label className="title"></label>
       <p className="forecast-desc">7-Day Forecast</p>
       <Accordion allowZeroExpanded>
         {data.list.splice(0, 7).map((item, index) => (

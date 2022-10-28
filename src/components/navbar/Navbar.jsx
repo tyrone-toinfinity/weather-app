@@ -8,7 +8,7 @@ export default function navbar() {
         <ul className="navbar-container">
           <li>
             {" "}
-            <a href="/">{<img src="weather-app-logo.webp" width={55} />}</a>
+            <a href="/">{<img src="weather-app-logo.webp" />}</a>
           </li>
           <li>
             {" "}
@@ -16,7 +16,7 @@ export default function navbar() {
           </li>
           <li>
             {" "}
-            <a href="/">Help</a>
+            <a href="/">help</a>
           </li>
         </ul>
       </div>

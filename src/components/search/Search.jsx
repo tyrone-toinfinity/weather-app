@@ -13,7 +13,7 @@ export const Search = ({ onSearchChange }) => {
   const loadOptions = async (inputValue) => {
     try {
       return await fetch(
-        `${GEO_API_URL}/cities?minPopulation=100000&namePrefix=${inputValue}`,
+        `${GEO_API_URL}/cities?minPopulation=10000&namePrefix=${inputValue}`,
         getApiOptions
       )
         .then((response) => response.json())
@@ -27,8 +27,6 @@ export const Search = ({ onSearchChange }) => {
             }),
           };
         });
-
-      // TODO add error message if server fails
     } catch {
       console.log("Sorry there was an error");
     }
