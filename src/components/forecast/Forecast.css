@@ -21,6 +21,7 @@
   cursor: pointer;
   font-size: 1.1rem;
   padding: 0.5rem 1.2rem;
+  animation: fadeIn 1.33s;
 }
 
 .icon-small {
@@ -64,4 +65,15 @@
 }
 .daily-details-grid-item label:first-child {
   color: rgb(220, 220, 220);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
