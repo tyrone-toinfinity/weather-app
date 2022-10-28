@@ -41,15 +41,14 @@
 }
 .weather-icon {
   width: 100px;
-  background-color: #eee;
-  border: #7e84da 2px solid;
+  background-color: #fff;
   border-radius: 50%;
 }
 
 /* Weather details */
 .temperature {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 4rem;
   width: auto;
   letter-spacing: 0px;
   margin: 0.8rem 0;

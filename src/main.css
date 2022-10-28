@@ -3,4 +3,7 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif, Arial;
   background-color: #3975b2;
+
+  /* background: rgb(16,80,144);
+background: linear-gradient(180deg, rgba(16,80,144,1) 0%, rgba(57,117,178,1) 35%, rgba(144,178,213,1) 90%, rgba(144,178,213,1) 100%); */
 }
